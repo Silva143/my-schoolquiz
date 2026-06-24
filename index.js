@@ -1,0 +1,24 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import CompanyBudget from './propdrillclass1';
+import Speed from './reducerhook';
+import MyUseReducerhook from './myuserreducerhook';
+import FinancialStatusChecker from './financialstatuschecker';
+import AdminDashboard from './AdminDashBoard';
+import FlashcardModal from './FlashcardModal';
+import QuizBuilder from './QuizBuilder';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AdminDashboard />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
